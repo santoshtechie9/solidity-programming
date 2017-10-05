@@ -16,7 +16,7 @@ he will have access to the administration functionalty.
 
 //Kill function is used to destroy the contract. 
 //Ethereum blockchain is an immutable store. 
-//It is not possible to delete the data from at the same time we can destroy a contract preventing its future use.
+//It is not possible to delete the contract from blockchain but it can be destroyed preventing its future use.
 //The in-build function suicide can be used to destroy the contract.
 
     function kill() {
