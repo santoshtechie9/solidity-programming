@@ -1,11 +1,11 @@
 
-pragma solidity ^0.4.17
+pragma solidity ^0.4.15;
 
 contract Participant {
 
     string public participantName;
 
-    function Participant(string _name){
+    function Participant(string _name) {
         participantName = _name;
     }
 

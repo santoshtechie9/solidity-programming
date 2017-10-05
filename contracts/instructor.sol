@@ -1,5 +1,5 @@
 
-pragma solidity ^0.4.17
+pragma solidity ^0.4.14;
 
 contract Instructor {
 
