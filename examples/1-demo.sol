@@ -12,7 +12,6 @@ Steps to deploy a contract:
 */
 
 contract User {
-
     string public userName;
 
     function User(string _name) {
