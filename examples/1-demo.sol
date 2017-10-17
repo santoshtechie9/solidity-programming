@@ -1,7 +1,9 @@
 pragma solidity ^0.4.14;
 
 /*
-Contract is the highest level object in Ethereum and everything else will be enclosed in a contract(Variables, objects, transactions etc.)
+Contract is similar to class or on object.
+Contract is the highest level object in Ethereum.
+Everything else will be enclosed in a contract(Variables, objects, transactions etc.)
 
 Steps to deploy a contract:
 ---------------------------
