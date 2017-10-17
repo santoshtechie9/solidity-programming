@@ -1,7 +1,7 @@
 pragma solidity ^0.4.14;
 
 /*
-Contract is similar to class or on object.
+Contract is similar to a class or an object.
 Contract is the highest level object in Ethereum.
 Everything else will be enclosed in a contract(Variables, objects, transactions etc.)
 
