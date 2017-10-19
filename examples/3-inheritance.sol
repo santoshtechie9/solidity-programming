@@ -27,3 +27,31 @@ contract Mortal {
     }
     
 }
+
+//Is the keyword to inherit the functionality.
+//User contract inherits the Mortal contract
+//It now has access to the entire functionality of the Mortal contract
+contract User is Mortal {
+    string public userName;
+
+    function User(string _name) {
+        userName = _name;
+    }
+}
+
+//Is the keyword to inherit the functionality.
+//Provider contract inherits the Mortal contract
+//It now has access to the entire functionality of the Mortal contract
+contract Provider is Mortal {
+    string public providerName;
+
+    function Provider(string _name) {
+        providerName = _name;
+    }
+}
+
+//complete the following steps
+//deploy the user contract
+//select functions
+//you will be able to see the kill function that the use contract inherited from Mortal contract
+//select the kill function and submit the transaction
