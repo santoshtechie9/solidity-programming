@@ -1,16 +1,16 @@
 
-pragma solidity ^0.4.15;
+pragma solidity ^0.4.22;
 
 /* 
 The Admin is the super user and 
 he will have access to the administration functionalty.
 */
 
- contract Admin {
+contract Admin {
 
     address public owner;
 
-    function Admin() {
+    constructor() public {
         owner = msg.sender;
     }
 
@@ -19,7 +19,7 @@ he will have access to the administration functionalty.
 //It is not possible to delete the contract from blockchain but it can be destroyed preventing its future use.
 //The in-build function suicide can be used to destroy the contract.
 
-    function kill() {
-         suicide(owner);
+    function kill() private {
+        selfdestruct(owner);
     }
 } 

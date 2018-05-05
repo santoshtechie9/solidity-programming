@@ -13,13 +13,13 @@ contract User {
     string public userName;
 
     //constructor function executed only once when the contract is deployed.
-    function User(string _name) {
+    constructor (string _name) internal {
         userName = _name;
     }
 
     //function is the block of code that is executed when invoked  
     //function to change he name of the user
-    function changeUserName(string _name) {
+    function changeUserName(string _name) public {
         userName = _name;
     }
 

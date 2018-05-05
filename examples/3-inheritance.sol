@@ -13,13 +13,13 @@ contract Mortal {
     //address is a data type in solidity
     address public owner;
 
-    function Mortal() {
+    constructor () public{
         //msg is an predefined object(global varaible) in solidity.
         //sender is the initiator of the transaction.
         owner = msg.sender;
     }
     
-    function kill() {
+    function kill() private{
         //selfdestruct is an in-build method in solidity
         //selfdestruct will kill the contract and transfer the ether to specified address
         //in ethereum blockchain it is not possible to remove anything but can be nullified 
@@ -34,7 +34,7 @@ contract Mortal {
 contract User is Mortal {
     string public userName;
 
-    function User(string _name) {
+    constructor (string _name) public {
         userName = _name;
     }
 }
@@ -45,7 +45,7 @@ contract User is Mortal {
 contract Provider is Mortal {
     string public providerName;
 
-    function Provider(string _name) {
+    constructor (string _name) public {
         providerName = _name;
     }
 }

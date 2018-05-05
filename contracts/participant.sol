@@ -5,7 +5,7 @@ contract Participant {
 
     string public participantName;
 
-    function Participant(string _name) {
+    constructor (string _name) public {
         participantName = _name;
     }
 

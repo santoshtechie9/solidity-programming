@@ -5,7 +5,7 @@ contract User {
 
     string public userName;
 
-    function User(string _name) {
+    constructor (string _name) internal {
         userName = _name;
     }
 

@@ -5,7 +5,7 @@ contract Instructor {
 
     string public instructorName;
 
-    function Instructor(string _name) {
+    constructor (string _name) public {
         instructorName = _name;
     }
 
