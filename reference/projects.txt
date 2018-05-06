@@ -3,4 +3,5 @@
 how-to-implement-role-based-access-control-to-users-private-data
 https://ethereum.stackexchange.com/questions/18058/how-to-implement-role-based-access-control-to-users-private-data
 
-
+Let them speak — A simple guide on how to build a social platform for an ERC-721 token
+https://blog.userfeeds.io/let-them-speak-a-simple-guide-on-how-to-build-a-social-platform-for-an-erc-721-token-d9651e353026

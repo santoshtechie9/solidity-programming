@@ -4,4 +4,12 @@ Resources-List:
 https://howtotoken.com/ico/how-to-write-a-smart-contract-for-your-ico-an-ultimate-guide/
 https://ethereum.stackexchange.com/questions/18058/how-to-implement-role-based-access-control-to-users-private-data
 https://hackernoon.com/smart-contracts-privacy-vs-confidentiality-645b6e9c6e5a
+How to write upgradable smart contracts in solidity !
+https://medium.com/quillhash/how-to-write-upgradable-smart-contracts-in-solidity-d8f1b95a0e9a
+
+Ethereum or Hyperledger Fabric?
+https://medium.com/quillhash/ethereum-or-hyperledger-fabric-259f3c9b8da6
+
+A series of examples studying the new game development capabilities ERC-721 objects enable
+https://github.com/TimTinkers/Palm
 
