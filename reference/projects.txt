@@ -1,0 +1,6 @@
+
+
+how-to-implement-role-based-access-control-to-users-private-data
+https://ethereum.stackexchange.com/questions/18058/how-to-implement-role-based-access-control-to-users-private-data
+
+

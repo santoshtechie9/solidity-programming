@@ -1,0 +1,7 @@
+
+
+Resources-List:
+https://howtotoken.com/ico/how-to-write-a-smart-contract-for-your-ico-an-ultimate-guide/
+https://ethereum.stackexchange.com/questions/18058/how-to-implement-role-based-access-control-to-users-private-data
+https://hackernoon.com/smart-contracts-privacy-vs-confidentiality-645b6e9c6e5a
+
