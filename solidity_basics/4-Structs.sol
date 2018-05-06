@@ -2,7 +2,7 @@ pragma solidity ^0.4.22;
 
 contract StructsSample{
 
-    //structure to hold employe details
+    //structure to hold employee details
     struct empStruct {
         int empId;
         string empName;
