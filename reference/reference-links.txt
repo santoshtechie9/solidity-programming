@@ -13,3 +13,5 @@ https://medium.com/quillhash/ethereum-or-hyperledger-fabric-259f3c9b8da6
 A series of examples studying the new game development capabilities ERC-721 objects enable
 https://github.com/TimTinkers/Palm
 
+https://github.com/ethereum/EIPs/issues/930
+
