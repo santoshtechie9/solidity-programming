@@ -1,0 +1,10 @@
+
+Testing Smart Contracts with Truffle:
+https://medium.com/level-k/testing-smart-contracts-with-truffle-7849b3d9961
+
+Testing your Solidity smart contracts:
+https://ethereumdev.io/testing-solidity-smart-contracts/
+
+Smart Contract Testing & Ethereum Simulator:
+https://medium.com/etherereum-salon/eth-testing-472c2f73b4c3
+
