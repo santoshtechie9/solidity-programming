@@ -27,9 +27,8 @@ contract StructsSample{
     }
 
     //function to fetch the employee details
-    function getEmployeeDetails(int empIdInit) public returns(int empIdReturn,string empNameReturn){
-        emp = empMap[empIdInit];
-        return (emp.empId,emp.empName);
+    function getEmployeeDetails(int empIdInit) public view returns(int empIdReturn,string empNameReturn){
+        return (empMap[empIdInit].empId,empMap[empIdInit].empName);
     }
 
 }

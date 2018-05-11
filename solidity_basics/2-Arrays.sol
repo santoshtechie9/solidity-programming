@@ -15,7 +15,7 @@ contract SampleArrays {
         //uint24[3] memory myArray3 = [1,2,99999];
     }
 
-    function getData(uint index) public returns(int returnedData) {
+    function getData(uint index) public view returns(int _returnData) {
         return intArray[index]; 
     }
 
@@ -23,7 +23,7 @@ contract SampleArrays {
         intArray[index] = value;
     }
 
-    function getArrayLength() public returns(uint returnArraLength) {
+    function getArrayLength() public view returns(uint returnArraLength) {
         return intArray.length;
     }
 

@@ -7,7 +7,7 @@ contract FirstContract {
     uint data;
 
     //event definition
-    event logData(uint256 dataToLog);
+    event logData(uint dataToLog);
 
     //function modifier
     modifier onlyOwner() {
@@ -26,7 +26,7 @@ contract FirstContract {
         ownerAddress = initOwner;
     }
 
-    function getData() public returns (uint returnedData) {
+    function getData() public view returns (uint) {
         return data;
     }
 
