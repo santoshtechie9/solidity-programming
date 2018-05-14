@@ -15,3 +15,6 @@ https://github.com/TimTinkers/Palm
 
 https://github.com/ethereum/EIPs/issues/930
 
+Developing Ethereum Dapps with Truffle and MetaMask
+https://medium.com/metamask/developing-ethereum-dapps-with-truffle-and-metamask-aa8ad7e363ba
+
