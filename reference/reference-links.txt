@@ -18,3 +18,5 @@ https://github.com/ethereum/EIPs/issues/930
 Developing Ethereum Dapps with Truffle and MetaMask
 https://medium.com/metamask/developing-ethereum-dapps-with-truffle-and-metamask-aa8ad7e363ba
 
+The ultimate end-to-end tutorial to create and deploy a fully decentralized Dapp in ethereum
+https://medium.com/@merunasgrincalaitis/the-ultimate-end-to-end-tutorial-to-create-and-deploy-a-fully-descentralized-dapp-in-ethereum-18f0cf6d7e0e
