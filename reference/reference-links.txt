@@ -1,22 +1,38 @@
 
+Here is the complete list of articles that gives you a very good idea of ethereum Dapps. read the articles in this list one by one to understand 
+how to work with smart contracts, advanced solidity programming concepts, design patterns, decentrasized application architectures etc. 
+
 
 Resources-List:
 https://howtotoken.com/ico/how-to-write-a-smart-contract-for-your-ico-an-ultimate-guide/
 https://ethereum.stackexchange.com/questions/18058/how-to-implement-role-based-access-control-to-users-private-data
 https://hackernoon.com/smart-contracts-privacy-vs-confidentiality-645b6e9c6e5a
+
 How to write upgradable smart contracts in solidity !
 https://medium.com/quillhash/how-to-write-upgradable-smart-contracts-in-solidity-d8f1b95a0e9a
 
 Ethereum or Hyperledger Fabric?
 https://medium.com/quillhash/ethereum-or-hyperledger-fabric-259f3c9b8da6
+https://etherworld.co/2017/10/01/hyperledger-blockchain-vs-ethereum-blockchain/
 
 A series of examples studying the new game development capabilities ERC-721 objects enable
 https://github.com/TimTinkers/Palm
-
 https://github.com/ethereum/EIPs/issues/930
+
+Designing the architecture for your Ethereum application
+https://blog.zeppelin.solutions/designing-the-architecture-for-your-ethereum-application-9cec086f8317
+https://ethereum.stackexchange.com/questions/12186/typical-architecture-of-a-dapp-with-a-browser-client?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+https://www.quora.com/How-do-I-architect-a-Blockchain-application
+https://hackernoon.com/crossing-over-to-web3-an-introduction-to-decentralised-development-5eb09e95edb0
+https://karl.tech/simple-dapp-architecture/
+https://www.slideshare.net/ethereum/the-ethereum-experience
+https://www.moesif.com/blog/blockchain/ethereum/Tutorial-for-building-Ethereum-Dapp-with-Integrated-Error-Monitoring/
+
 
 Developing Ethereum Dapps with Truffle and MetaMask
 https://medium.com/metamask/developing-ethereum-dapps-with-truffle-and-metamask-aa8ad7e363ba
 
 The ultimate end-to-end tutorial to create and deploy a fully decentralized Dapp in ethereum
 https://medium.com/@merunasgrincalaitis/the-ultimate-end-to-end-tutorial-to-create-and-deploy-a-fully-descentralized-dapp-in-ethereum-18f0cf6d7e0e
+
+
