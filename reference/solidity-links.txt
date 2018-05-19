@@ -8,3 +8,5 @@ https://ethereumdev.io/testing-solidity-smart-contracts/
 Smart Contract Testing & Ethereum Simulator:
 https://medium.com/etherereum-salon/eth-testing-472c2f73b4c3
 
+
+https://ethereum.stackexchange.com/questions/22796/cryptocurrency-node-js-web3-ethereum-cant-connect-to-testrpc?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
