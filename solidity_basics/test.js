@@ -1,7 +1,12 @@
-
-//testrpc
-
+//testrpc -d
 //geth attach http://localhost:8545
+// Connecting to testrpc client from node js
+var Web3 = require("web3");
+var web3 = new Web3('http://localhost:8545');
+web3.version;
+web3.eth.getAccounts().then(console.log);
+
+
 
 
 var proofContract = web3.eth.contract([{"constant":true,"inputs":[{"name":"_fileHash","type":"string"}],"name":"get","outputs":[{"name":"timestamp","type":"uint256"},{"name":"owner","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_owner","type":"string"},{"name":"_fileHash","type":"string"}],"name":"set","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"status","type":"bool"},{"indexed":false,"name":"timestamp","type":"uint256"},{"indexed":false,"name":"owner","type":"string"},{"indexed":false,"name":"fileHash","type":"string"}],"name":"logFileAddedStatus","type":"event"}]);
