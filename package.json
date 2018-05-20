@@ -1,0 +1,26 @@
+{
+  "name": "solidity-examples",
+  "version": "1.0.0",
+  "description": "Solidity is the programming language used to create smart contracts in Ethereum. Its the language to program EVM.",
+  "main": "helloworld.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santoshtechie9/solidity-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santoshtechie9/solidity-examples/issues"
+  },
+  "homepage": "https://github.com/santoshtechie9/solidity-examples#readme"
+}

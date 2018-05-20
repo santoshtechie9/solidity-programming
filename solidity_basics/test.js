@@ -6,11 +6,13 @@ var web3 = new Web3('http://localhost:8545');
 web3.version;
 web3.eth.getAccounts().then(console.log);
 
+//geth attach http://localhost:8546
 
 
-
+// contract JSON interface object
 var proofContract = web3.eth.contract([{"constant":true,"inputs":[{"name":"_fileHash","type":"string"}],"name":"get","outputs":[{"name":"timestamp","type":"uint256"},{"name":"owner","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_owner","type":"string"},{"name":"_fileHash","type":"string"}],"name":"set","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"status","type":"bool"},{"indexed":false,"name":"timestamp","type":"uint256"},{"indexed":false,"name":"owner","type":"string"},{"indexed":false,"name":"fileHash","type":"string"}],"name":"logFileAddedStatus","type":"event"}]);
 
+// contract object
 var proof = proofContract.new(
    {
      from: web3.eth.accounts[0], 
@@ -24,8 +26,10 @@ var proof = proofContract.new(
  })
 
 
+ // retrieving contract object
+var contract_obj = proofContract.at("0x621f47ce06488f493375a8b4b89d9387a269bb91"); 
 
- var contract_obj = proofContract.at("0x621f47ce06488f493375a8b4b89d9387a269bb91"); 
+// send transaction 
 contract_obj.set.sendTransaction("Sans", "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", { 
  from: web3.eth.accounts[0], 
 }, function(error, transactionHash){ 
@@ -33,6 +37,6 @@ contract_obj.set.sendTransaction("Sans", "e3b0c44298fc1c149afbf4c8996fb92427ae41
     console.log(transactionHash); 
 }) 
 
-
+// call contract method to read data
 contract_obj.get.call("e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"); 
 
